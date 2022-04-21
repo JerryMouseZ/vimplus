@@ -487,8 +487,6 @@ function install_vim_plugin()
 # 安装ycm插件
 function install_ycm()
 {
-    git clone https://gitee.com/chxuan/YouCompleteMe-clang.git ~/.vim/plugged/YouCompleteMe
-
     cd ~/.vim/plugged/YouCompleteMe
     distro=`get_linux_distro`
     read -p "Please choose to compile ycm with python2 or python3, if there is a problem with the current selection, please choose another one. [2/3] " version
@@ -579,8 +577,8 @@ function install_vimplus_on_mac()
     install_prepare_software_on_mac
     copy_files
     install_fonts_on_mac
-    install_ycm
     install_vim_plugin
+    install_ycm
     print_logo
 }
 
