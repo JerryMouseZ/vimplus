@@ -566,8 +566,8 @@ function begin_install_vimplus()
 {
     copy_files
     install_fonts_on_linux
-    install_ycm
     install_vim_plugin
+    install_ycm
     print_logo
 }
 
