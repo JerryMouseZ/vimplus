@@ -489,7 +489,7 @@ function install_ycm()
 {
     cd ~/.vim/plugged/YouCompleteMe
     distro=`get_linux_distro`
-    python3 ./install.py --clang-completer
+    python3 ./install.py --clangd-completer
 }
 
 # 在android上安装ycm插件
