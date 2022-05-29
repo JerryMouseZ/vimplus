@@ -295,6 +295,7 @@ nnoremap <leader>u :YcmCompleter GoToDeclaration<cr>
 nnoremap <leader>i :YcmCompleter GoToDefinition<cr> 
 nnoremap <leader>o :YcmCompleter GoToInclude<cr>
 nnoremap <leader>ff :YcmCompleter FixIt<cr>
+nnoremap <F12> :YcmCompleter GoToReferences<cr>
 nmap <F5> :YcmDiags<cr>
 
 " tagbar
