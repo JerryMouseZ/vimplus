@@ -217,6 +217,7 @@ An automatic configuration program for vim
 | `<leader><leader>i` | 安装插件                                  |
 | `<leader><leader>u` | 更新插件                                  |
 | `<leader><leader>c` | 删除插件                                  |
+| `F12`               | 查看引用                                  | 
 
 
 ## FAQ
