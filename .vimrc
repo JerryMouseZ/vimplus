@@ -225,7 +225,7 @@ let g:airline_right_alt_sep = ''
 " cpp-mode
 nnoremap <leader>y :CopyCode<cr>
 nnoremap <leader>p :PasteCode<cr>
-" nnoremap <leader>U :GoToFunImpl<cr>
+nnoremap <leader>U :GoToFunImpl<cr>
 nnoremap <silent> <leader>a :Switch<cr>
 nnoremap <leader><leader>fp :FormatFunParam<cr>
 nnoremap <leader><leader>if :FormatIf<cr>
@@ -295,7 +295,7 @@ nnoremap <leader>u :YcmCompleter GoToDeclaration<cr>
 nnoremap <leader>i :YcmCompleter GoToDefinition<cr> 
 nnoremap <leader>o :YcmCompleter GoToInclude<cr>
 nnoremap <leader>ff :YcmCompleter FixIt<cr>
-nmap <F12> :YcmCompleter GoToReferences<cr>
+nnoremap <F12> :YcmCompleter GoToReferences<cr>
 nmap <F5> :YcmDiags<cr>
 
 " tagbar
